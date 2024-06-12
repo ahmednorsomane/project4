@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --bg1: #151828;
+    --bg2: #1B1F34;
+    --body: #959DCC;
+    --brand: #FFAB76;
+    --white: #fff;
+}
+body{
+    font-family: "inter",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--body);
+    line-height: 1.5;
+    background-color: var(--bg1);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Dela gothic one", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #fff;
+}
+img{
+    width: 100%;
+}
+a{
+    color:var(--body);
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+a:hover{
+  
+color: var(--brand);
+}
+.link-more{
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    left: 1;
+    text-transform: uppercase;
+}
+.link-more .icon{
+    transition: all 0.4s ease;
+}
+.link-more:hover .icon{
+transform: translateX(8px);
+}
+section{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+/*navbar*/
+.navbar{
+  
+    background: linear-gradient(to bottom,#1B1F34 , rgba(27,31,52,0.2));
+}
+.navbar .navbar-nav .nav-link .active{
+color:var(--brand);
+}
+.navbar-brand{
+    font-family: "inter",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+
+}
